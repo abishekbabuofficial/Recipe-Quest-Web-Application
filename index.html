@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>RECIPE QUEST</h1>
+        <input type="text" id="searchInput" placeholder="Search for a recipe...">
+        <button onclick="searchRecipes()">Search</button>
+
+        <select id="filterSelect" onchange="filterRecipes()">
+            <option value="all">All</option>
+            <option value="Indian">Indian</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Italian">Italian</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option>
+        </select>        
+
+
+    </header>
+    <main id="recipeContainer">
+        <!-- Recipes will be displayed here -->
+    </main>
+    <footer>
+        <p>© 2024 Recipe Quest ❤️ Project by Abishek</p>
+    </footer>
+
+
+
+    <!-- Modal Structure -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" src="" alt="">
+            <p id="modalIngredients"></p>
+            <p id="modalInstructions"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

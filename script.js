@@ -10,7 +10,7 @@ const recipes = [
         title: "Palak Paneer",
         ingredients: ["Spinach", "Paneer", "Garlic", "Onion", "Spices"],
         instructions: "Blanch spinach, cook with spices, and add paneer cubes.",
-        image: "./assets/images/palak-panner.jpg",
+        image: "assets/images/palak-panner.jpg",
         category: ["Indian","Vegetarian"]
     },
     {

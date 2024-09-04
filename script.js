@@ -3,14 +3,14 @@ const recipes = [
         title: "Butter Chicken",
         ingredients: ["Chicken", "Butter", "Tomato", "Cream", "Spices"],
         instructions: "Marinate chicken with spices. Cook with butter, tomato, and cream until done.",
-        image: "Recipe-Quest-Web-Application/assets/images/butterchicken.jpg",
+        image: "./assets/images/butterchicken.jpg",
         category: ["Indian","Non-Vegetarian"]
     },
     {
         title: "Palak Paneer",
         ingredients: ["Spinach", "Paneer", "Garlic", "Onion", "Spices"],
         instructions: "Blanch spinach, cook with spices, and add paneer cubes.",
-        image: "assets/images/palak-panner.jpg",
+        image: "./assets/images/palak-panner.jpg",
         category: ["Indian","Vegetarian"]
     },
     {

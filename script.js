@@ -3,56 +3,56 @@ const recipes = [
         title: "Butter Chicken",
         ingredients: ["Chicken", "Butter", "Tomato", "Cream", "Spices"],
         instructions: "Marinate chicken with spices. Cook with butter, tomato, and cream until done.",
-        image: ".assets/images/butterchicken.jpg",
+        image: "./assets/images/butterchicken.jpg",
         category: ["Indian","Non-Vegetarian"]
     },
     {
         title: "Palak Paneer",
         ingredients: ["Spinach", "Paneer", "Garlic", "Onion", "Spices"],
         instructions: "Blanch spinach, cook with spices, and add paneer cubes.",
-        image: "../assets/images/palak-panner.jpg",
+        image: "./assets/images/palak-panner.jpg",
         category: ["Indian","Vegetarian"]
     },
     {
         title: "Chicken Biryani",
         ingredients: ["Basmati Rice", "Chicken", "Yogurt", "Spices", "Onions"],
         instructions: "Layer cooked rice and marinated chicken, cook on low heat.",
-        image: "../assets/images/Chicken-biryani.jpg",
+        image: "./assets/images/Chicken-biryani.jpg",
         category: ["Indian","Non-Vegetarian"]
     },
     {
         title: "Masala Dosa",
         ingredients: ["Rice", "Lentils", "Potatoes", "Spices", "Coconut"],
         instructions: "Make a batter from rice and lentils, cook dosa, fill with spiced potato filling.",
-        image: "../assets/images/masala-dosai.jpg",
+        image: "./assets/images/masala-dosai.jpg",
         category: ["Indian","Vegetarian"]
     },
     {
         title: "Mutton Biryani",
         ingredients: ["Basmati Rice", "Chicken", "Yogurt", "Spices", "Onions"],
         instructions: "Layer cooked rice and marinated chicken, cook on low heat.",
-        image: "../assets/images/mutton-biryani.jpeg",
+        image: "./assets/images/mutton-biryani.jpeg",
         category: ["Indian","Non-Vegetarian"]
     },
     {
         title: "Gulab Jamun",
         ingredients: ["Milk Powder", "Flour", "Sugar", "Cardamom", "Rose Water"],
         instructions: "Make dough from milk powder and flour, fry, and soak in sugar syrup.",
-        image: "../assets/images/gulab-jamun.jpg",
+        image: "./assets/images/gulab-jamun.jpg",
         category: ["Indian","Vegetarian"]
     },
     {
         title: "Kung Pao Chicken",
         ingredients: ["Chicken", "Peanuts", "Bell Peppers", "Chili", "Soy Sauce"],
         instructions: "Stir-fry chicken with vegetables, add peanuts and sauce.",
-        image: "../assets/images/kung-pao-chicken.jpg",
+        image: "./assets/images/kung-pao-chicken.jpg",
         category: ["Chinese","Non-Vegetarian"]
     },
     {
         title: "Margherita Pizza",
         ingredients: ["Pizza Dough", "Tomato Sauce", "Mozzarella", "Basil"],
         instructions: "Spread sauce on dough, top with cheese and basil, bake.",
-        image: "../assets/images/pizza-margherita.jpg",
+        image: "./assets/images/pizza-margherita.jpg",
         category: ["Italian","Vegetarian"]
     }
 ];

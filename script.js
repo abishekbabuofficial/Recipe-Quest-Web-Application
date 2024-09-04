@@ -3,7 +3,7 @@ const recipes = [
         title: "Butter Chicken",
         ingredients: ["Chicken", "Butter", "Tomato", "Cream", "Spices"],
         instructions: "Marinate chicken with spices. Cook with butter, tomato, and cream until done.",
-        image: "../assets/images/butterchicken.jpg",
+        image: "/assets/images/butterchicken.jpg",
         category: ["Indian","Non-Vegetarian"]
     },
     {
